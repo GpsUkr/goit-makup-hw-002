@@ -1,6 +1,7 @@
 /*GENERAL*/
 
 :root {
+  --second-font: "Raleway", sans-serif;
   --primary-text-color: #212121;
   --second-text-color: #757575;
   --style-color: #ffffff;
@@ -48,7 +49,7 @@ body {
 }
 
 .first-part {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--second-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -58,7 +59,7 @@ body {
 }
 
 .last-part {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -184,7 +185,7 @@ body {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .work-team-list {
@@ -193,7 +194,7 @@ body {
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .work-team-profi {
@@ -202,7 +203,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 /*footer*/
@@ -212,7 +213,7 @@ body {
 }
 
 .last-part-footer {
-  font-family: "Raleway";
+  font-family: var(--second-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
