@@ -30,6 +30,8 @@ body {
   color: var(--accent-color);
 }
 
+/*Nav-link*/
+
 .header-nav,
 .header-style {
   background-color: var(--style-color);
@@ -180,7 +182,7 @@ body {
 }
 
 .our-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .work-team {
