@@ -101,13 +101,33 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--style-color);
+  color: var(--primary-text-color);
   background: #f5f4fa;
+}
+
+.hero-main-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  background: #f5f4fa
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background: var(--accent-color);
+  color: var(--style-color);
+}
+
+.hero-main-btn:hover, 
+.hero-main-btn:focus {
+  background: var(--accent-color);
+  color: var(--style-color);
 }
 
 /*main-skill*/
