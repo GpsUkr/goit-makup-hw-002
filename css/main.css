@@ -115,7 +115,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  background: #f5f4fa
+  background: #f5f4fa;
 }
 
 .hero-btn:hover,
@@ -124,7 +124,7 @@ body {
   color: var(--style-color);
 }
 
-.hero-main-btn:hover, 
+.hero-main-btn:hover,
 .hero-main-btn:focus {
   background: var(--accent-color);
   color: var(--style-color);
