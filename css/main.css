@@ -142,7 +142,7 @@ li.pointer {
 
 .hero-main-btn:hover,
 .hero-main-btn:focus {
-  background: #188ce8;
+  background: var(--accent-color);
   color: var(--style-color);
 }
 
