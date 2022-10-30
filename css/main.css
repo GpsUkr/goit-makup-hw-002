@@ -6,6 +6,9 @@
   --second-text-color: #757575;
   --style-color: #ffffff;
   --accent-color: #2196f3;
+  --style-back-color:  #188ce8;
+  --back-color: #2f303a;
+  --style-second-color: #f5f4fa;
 }
 
 body {
@@ -14,7 +17,7 @@ body {
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--back-color);
 }
 
 .list, .skill {
@@ -29,7 +32,7 @@ body {
 
 .link :hover,
 .link :focus {
-  color: #188ce8;
+  color: var(--style-back-color);
 }
 li.pointer {
   cursor:pointer
@@ -45,7 +48,7 @@ li.pointer {
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
@@ -60,7 +63,7 @@ li.pointer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -69,7 +72,7 @@ li.pointer {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -83,7 +86,7 @@ li.pointer {
 .header-mail-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
@@ -93,7 +96,7 @@ li.pointer {
 .hero-text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -104,26 +107,30 @@ li.pointer {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--style-color);
   background: var(--accent-color);
+  border-radius: 4px;
+  border: none;
 }
 
 .hero-main-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  background: #f5f4fa;
+  background: var(--style-second-color);
+  border-radius: 4px;
+  border: none;
 }
 
 .hero-btn {
@@ -136,7 +143,7 @@ li.pointer {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #188ce8;
+  background: var(--style-back-color);
   color: var(--style-color);
 }
 
@@ -165,7 +172,7 @@ li.pointer {
 .main-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2.00;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
@@ -181,7 +188,7 @@ li.pointer {
 .skill-style {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -190,7 +197,7 @@ li.pointer {
 .skill-style-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -198,13 +205,13 @@ li.pointer {
 /*team*/
 
 .our-team {
-  background-color: #f5f4fa;
+  background-color: var(--style-second-color);
 }
 
 .work-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -213,7 +220,7 @@ li.pointer {
 .work-team-list {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -222,7 +229,7 @@ li.pointer {
 .work-team-profi {
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
@@ -235,7 +242,7 @@ li.pointer {
 /*footer*/
 
 .style-footer {
-  background: #2f303a;
+  background: var(--back-color);
 }
 
 .last-part-footer {
@@ -243,7 +250,7 @@ li.pointer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--style-color);
 }
@@ -252,7 +259,7 @@ li.pointer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--style-color);
 }
